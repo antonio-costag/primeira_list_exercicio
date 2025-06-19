@@ -24,7 +24,7 @@ int main() {
     } 
     else if (tronco_largura < 1 || tronco_largura % 2 == 0 || tronco_largura > (folhas_base - 1) / 2) {
 
-      printf("\n\n[ERRO]A largura do tronco deve ser um numero impar maior que 1 e menor que a metade da base das folhas\n\n");
+      printf("\n\n[ERRO]A largura do tronco deve ser um numero impar maior que 0 e menor que a metade da base das folhas\n\n");
     } 
     else if (tronco_altura < 2 || tronco_altura > (folhas_base - 1) / 2) {
 
