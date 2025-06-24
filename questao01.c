@@ -8,9 +8,9 @@ int main(){
 
     int ajuste = altura;
 
-    int linhaF = 1;
-    int colunaF = 1;
-    int linha_sub_colunaF = 1;
+    unsigned long long linhaF = 1;
+    unsigned long long colunaF = 1;
+    unsigned long long linha_sub_colunaF = 1;
 
     for(int l = 0; l < altura; l++){
         for(int i = 0; i < ajuste; i++){

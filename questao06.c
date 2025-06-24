@@ -31,6 +31,8 @@ int main() {
       printf("\n\n[ERRO]A altura do tronco deve ser pelo menos 2 e menor que a metade da base das folhas\n\n");
     } 
     else {
+
+      printf("\n");
       
       //Folhas da arvore
       for (int l = 0; l < folhas_base; l++) {
