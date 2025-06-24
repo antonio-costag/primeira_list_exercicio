@@ -16,6 +16,8 @@ int main(){
   int ajuste_cres = -correcao;
   int ajuste_desc = 1;
 
+  printf("\n");
+
   for (int l = 0; l < altura; l++) {
     for (int c = 0; c < altura; c++) {
         if (l + c >= (altura - 1) / 2 && c - l <= (altura - 1) / 2 &&
@@ -26,7 +28,7 @@ int main(){
             else{
                 printf("%d  ", l + ajuste_desc);
             }
-        }else {
+        }else{
             printf("   ");
         }
 
@@ -41,5 +43,5 @@ int main(){
     printf("\n\n");
   }
 
-    return 0;
+  return 0;
 }
