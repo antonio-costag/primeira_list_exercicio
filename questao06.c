@@ -8,7 +8,9 @@ int main() {
   // altura do tronco
   int tronco_altura;
 
-  while (1) {
+  int fim_ciclo = 1;
+
+  while (fim_ciclo == 1) {
     printf("Digite a base das folhas da arvore: ");
     scanf("%d", &folhas_base);
 
@@ -51,6 +53,7 @@ int main() {
 
       // Tronco da arvore
       for (int l = 0; l < tronco_altura; l++) {
+        //centralizando o tronco
         for (int i = 0; i < (folhas_base - tronco_largura) / 2; i++) {
           printf(" ");
         }
@@ -60,7 +63,7 @@ int main() {
         printf("\n");
       }
 
-      return 0;
+      fim_ciclo = 0;
     }
   }
 

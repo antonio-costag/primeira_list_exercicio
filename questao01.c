@@ -8,6 +8,7 @@ int main(){
 
     int ajuste = altura;
 
+    //usando o long pra estender um pouco mais a pirâmedi
     unsigned long long linhaF = 1;
     unsigned long long colunaF = 1;
     unsigned long long linha_sub_colunaF = 1;
